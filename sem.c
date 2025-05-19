@@ -25,6 +25,7 @@ void* func(void* arg){
 		sleep(2);
 	}
 	unlock();
+	return NULL;
 }
 
 int main() {
